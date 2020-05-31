@@ -1,0 +1,15 @@
+Package: geomod
+Type: Package
+Title: Package for Geo-Technical Investigation
+Version: 0.1.0
+Author: Festus Ngeno
+Maintainer: Festus Ngeno <festus.k.ngeno@gmail.com>
+Description: An R package for Modeling that can potentially solve the current limitations in Geo-Technical Modeling by providing a wide variety of statistical (linear and nonlinear modeling, classical statistical tests, time series analysis, classification, clustering) and graphical techniques.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: nlme, rgdal, mgcv, sp, splines, survival, latticeExtra, gstat, maptools, MASS, foreign, devtools
+Suggests: e1071, ipred, knitr, rmarkdown
+RoxygenNote: 7.1.0
+VignetteBuilder: knitr
+NeedsCompilation: no
